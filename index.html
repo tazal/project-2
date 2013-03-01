@@ -7,20 +7,25 @@
 
 
 <body>
-  <div id="tracking">
-    <h3>Now tracking the following terms:</h3>
-    <ul class="big">
-      <li>Javascript</li>
-      <li>JSLint</li>
-      <li>JQuery</li>
-    </ul>
+  <div id="before-submit">
+    <div class="tracking">
+      <h3>What tag do you want to follow?</h3>
+    </div>
+    <p><input id="tag" /></p>
+    <p><button id="submit">Track!</button></p>
   </div>
   
-  <div id="feed">
-    <div class="jcarousel">
-      <ul>
-        &nbsp;
-      </ul>
+  <div id="after-submit">
+    <div class="tracking">
+      <h3>Now tracking: </h3>
+    </div>
+  
+    <div id="feed">
+      <div class="jcarousel">
+        <ul>
+          &nbsp;
+        </ul>
+      </div>
     </div>
   </div>
 

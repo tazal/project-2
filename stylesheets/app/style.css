@@ -2,11 +2,14 @@ body {
   background:#000000;
 }
 
+#after-submit {
+  display:none;
+}
+
 #feed {
   font-family: "Helvetica", sans-serif;
-  float: right;
-  width: 75%;
-  text-align: right;
+  width: 100%;
+  text-align: left;
   background: #000000;
   color:#99DDEE;
   opacity: .9;
@@ -15,40 +18,40 @@ body {
 }
 
 .tweet {
-  height: 50px;
+  height: 200px;
+  padding: 10px;
 }
 
-#tracking {
-  width: 20%;
-  height: 640px;
-  float: left;
+.tracking {
   background: #99DDEE;
+  width:100%;
   margin: 0px;
+  height: 150px;
   padding: 10px;
 }
 
 .big {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: "Helvetica", sans-serif;
   opacity:.7;
   color: #000000;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 4em;
   font-family: "Helvetica", sans-serif;
   opacity: .8;
   color:#000000;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 3em;
   font-family: "Helvetica", sans-serif;
 
 }
 
 p {
-  font-size: 16px;
+  font-size: 2em;
 }
 
 ul{
@@ -59,7 +62,7 @@ ul{
     position: relative;
     overflow: hidden;
     /* You need at least a height, adjust this to your needs */
-    height: 150px;
+    height: 400px;
 }
 
 .jcarousel ul {
@@ -71,6 +74,6 @@ ul{
 }
 
 .jcarousel li {
-    float: right;
-    height: 300px;
+    float: left;
+    height: 800px;
 }
