@@ -20,11 +20,12 @@ var main = function () {
     stream.on("data", function (tweet) {
       queue(userName, tweet.from_user);
       queue(tweetText, tweet.text);
+      
       if (tweetText[9] !== undefined) {
         $("#tweet1").html("<h4>" + userName[9] + "</h4>" + "<p>" + tweetText[9] + "</p>");
-        $("#tweet1").fadeIn("slow",function () {
+        /*$("#tweet1").fadeIn("slow",function () {
           $("#tweet1").hide();
-        });
+        });*/
       }
 
       if (tweetText[8] !== undefined) {
@@ -61,9 +62,9 @@ var main = function () {
 
       if (tweetText[0] !== undefined) {
         $("#tweet10").html("<h4>" + userName[0] + "</h4>" + "<p>" + tweetText[0] + "</p>");
-        $("#tweet10").fadeOut("slow", function () {
+        /*$("#tweet10").fadeOut("slow", function () {
           $("#tweet10").show();
-        });
+        });*/
       }
     });
   });
