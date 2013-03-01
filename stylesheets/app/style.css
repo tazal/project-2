@@ -42,13 +42,13 @@ h3 {
 }
 
 h4 {
-  font-size: 11px;
+  font-size: 20px;
   font-family: "Helvetica", sans-serif;
 
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 ul{
@@ -57,4 +57,9 @@ ul{
 
 #tweet1 {
   display:none;
+}
+
+.vert {
+  height: 200px;
+  margin:0px;
 }
