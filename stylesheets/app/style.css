@@ -1,5 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Tauri);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
   background:#000000;
+  font-family: "Open Sans", sans-serif;
 }
 
 #after-submit {
@@ -7,7 +11,6 @@ body {
 }
 
 #feed {
-  font-family: "Helvetica", sans-serif;
   width: 100%;
   text-align: left;
   background: #000000;
@@ -42,28 +45,21 @@ body {
   padding: 10px;
 }
 
-.big {
-  font-size: 2em;
-  font-family: "Helvetica", sans-serif;
-  opacity:.7;
-  color: #000000;
-}
-
 h3 {
   font-size: 3em;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Tauri", sans-serif;
   opacity: .8;
   color:#000000;
 }
 
 h4 {
-  font-size: 3em;
-  font-family: "Helvetica", sans-serif;
+  font-size: 2em;
+  font-family: "Tauri", sans-serif;
 
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 ul{
@@ -75,6 +71,7 @@ ul{
     overflow: hidden;
     /* You need at least a height, adjust this to your needs */
     height: 400px;
+    width:600px;
 }
 
 .jcarousel ul {
@@ -88,4 +85,5 @@ ul{
 .jcarousel li {
     float: left;
     height: 800px;
+    padding:20px;
 }

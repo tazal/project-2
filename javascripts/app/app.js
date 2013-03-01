@@ -22,7 +22,7 @@
             }).jcarouselAutoscroll({
               "interval": 900
             });
-            $(".jcarousel ul").append("<li> <h4>" + tweet.from_user + "</h4>" + "<p>" + tweet.text + "</p> </li>");
+            $(".jcarousel ul").append("<li> <h4>" + tweet.from_user + "</h4>" + "<p>" + tweet.text + " </p> </li>");
             $(".jcarousel").jcarousel('reload');
           });
         });
