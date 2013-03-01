@@ -20,7 +20,7 @@
             $(".jcarousel").jcarousel({
               "vertical": true
             }).jcarouselAutoscroll({
-              "interval": 900
+              "interval": 2000
             });
             $(".jcarousel ul").append("<li> <h4>" + tweet.from_user + "</h4>" + "<p>" + tweet.text + " </p> </li>");
             $(".jcarousel").jcarousel('reload');
