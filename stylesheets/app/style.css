@@ -17,6 +17,18 @@ body {
   padding: 10px;
 }
 
+#tag {
+  height: 50px;
+  font-size:1em;
+  margin: 0px 10px;
+}
+
+#submit {
+  height: 40px;
+  font-size:.75em;
+  margin: 0px 10px;
+}
+
 .tweet {
   height: 200px;
   padding: 10px;
@@ -26,7 +38,7 @@ body {
   background: #99DDEE;
   width:100%;
   margin: 0px;
-  height: 150px;
+  height: 8em;
   padding: 10px;
 }
 
@@ -38,7 +50,7 @@ body {
 }
 
 h3 {
-  font-size: 4em;
+  font-size: 3em;
   font-family: "Helvetica", sans-serif;
   opacity: .8;
   color:#000000;
