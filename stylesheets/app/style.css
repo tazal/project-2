@@ -6,7 +6,7 @@ body {
   font-family: "Helvetica", sans-serif;
   float: right;
   width: 75%;
-  text-align: center;
+  text-align: right;
   background: #000000;
   color:#99DDEE;
   opacity: .9;
@@ -55,11 +55,22 @@ ul{
   list-style-type: none;
 }
 
-#tweet1 {
-  display:none;
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    /* You need at least a height, adjust this to your needs */
+    height: 150px;
 }
 
-.vert {
-  height: 200px;
-  margin:0px;
+.jcarousel ul {
+    height: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: right;
+    height: 300px;
 }
