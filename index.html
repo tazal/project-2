@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html>
 <head>
+  <link href="javascripts/lib/simplyscroll/jquery.simplyscroll.css" type="text/css" rel="stylesheet" />
   <link href="stylesheets/app/style.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -16,42 +17,43 @@
   </div>
   
   <div id="feed">
-    &nbsp;
-    <div id="tweet1" class="tweet">
-      &nbsp;
-    </div>
-    <div id="tweet2" class="tweet">
-      &nbsp;
-    </div>
-    <div id="tweet3" class="tweet">
-      &nbsp;
-    </div>
-    <div id="tweet4">
-      &nbsp;
-    </div>
-    <div id="tweet5">
-      &nbsp;
-    </div>
-    <div id="tweet6">
-      &nbsp;
-    </div>
-    <div id="tweet7">
-      &nbsp;
-    </div>
-    <div id="tweet8">
-      &nbsp;
-    </div>
-    <div id="tweet9">
-      &nbsp;
-    </div>
-    <div id="tweet10">
-      &nbsp;
-    </div>
+    <ul id="scroller">
+      <li id="tweet1" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet2" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet3" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet4" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet5" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet6" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet7" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet8" class="tweet">
+        &nbsp;
+      </li>
+      <div id="tweet9" class="tweet">
+        &nbsp;
+      </li>
+      <li id="tweet10" class="tweet">
+        &nbsp;
+      </li>
+    </ul>
   </div>
 
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="javascripts/lib/ctwitter/build/ctwitter.js"></script>
-  <script src="javascripts/lib/jquery.vticker.js"></script>
+  <script src="javascripts/lib/simplyscroll/jquery.simplyscroll.js"></script>
   <script src="javascripts/app/app.js"></script>
 </body>
 </html>

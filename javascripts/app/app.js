@@ -70,4 +70,11 @@ var main = function () {
   });
 };
 
-$(document).ready(main);
+$(document).ready(function() {
+  main();
+  $("#scroller").simplyScroll({
+    orientation: 'vertical',
+    auto: true,
+    pauseOnHover: true,
+  })
+});
